@@ -8,3 +8,4 @@ for raiz, diretorios, arquivos in os.walk(sys.argv[1]):
     for f in arquivos:
         print(f"  {f}/")
     print(f"{len(diretorios)} diretórios(s), {len(arquivos)} arquivo(s)")
+
